@@ -1,0 +1,30 @@
+name: stylechecks
+run_id: commands[0]
+env PATHEXT: .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+env PROGRAMFILES(X86): C:\Program Files (x86)
+env USERPROFILE: C:\Users\Lenovo
+env PROCESSOR_ARCHITECTURE: AMD64
+env NUMBER_OF_PROCESSORS: 8
+env COMSPEC: C:\Windows\system32\cmd.exe
+env PROGRAMFILES: C:\Program Files
+env TEMP: C:\Users\Lenovo\AppData\Local\Temp
+env SYSTEMROOT: C:\Windows
+env TMP: C:\Users\Lenovo\AppData\Local\Temp
+env SYSTEMDRIVE: C:
+env PROGRAMDATA: C:\ProgramData
+env PATH: C:\Users\Lenovo\Desktop\pythonProject26\testing-and-monitoring-ml-deployements\packages\gradient_boosting_model\.tox\unit_tests\Scripts;C:\Users\Lenovo\Desktop\pythonProject26\venv/Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Users\Lenovo\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\Lenovo\AppData\Local\Programs\Python\Python36\;C:\Users\Lenovo\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Lenovo\AppData\Local\Programs\Python\Python39\;C:\Users\Lenovo\scoop\shims;C:\Users\Lenovo\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Lenovo\AppData\Local\Programs\Python\Python310\;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;;C:\Users\Lenovo\AppData\Local\Programs\Microsoft VS Code\bin
+env PYTHONHASHSEED: 852
+env PIP_DISABLE_PIP_VERSION_CHECK: 1
+env PYTHONIOENCODING: utf-8
+env PYTHONPATH: .
+env TOX_ENV_NAME: stylechecks
+env TOX_WORK_DIR: C:\Users\Lenovo\Desktop\pythonProject26\testing-and-monitoring-ml-deployements\packages\gradient_boosting_model\.tox
+env TOX_ENV_DIR: C:\Users\Lenovo\Desktop\pythonProject26\testing-and-monitoring-ml-deployements\packages\gradient_boosting_model\.tox\unit_tests
+env VIRTUAL_ENV: C:\Users\Lenovo\Desktop\pythonProject26\testing-and-monitoring-ml-deployements\packages\gradient_boosting_model\.tox\unit_tests
+env COLUMNS: 161
+env LINES: 9
+metadata pid: 20016
+cwd: C:\Users\Lenovo\Desktop\pythonProject26\testing-and-monitoring-ml-deployements\packages\gradient_boosting_model
+allow: C:\Users\Lenovo\Desktop\pythonProject26\testing-and-monitoring-ml-deployements\packages\gradient_boosting_model\.tox\unit_tests\Scripts\*
+cmd: flake8 gradient_boosting_model tests
+exit_code: 0

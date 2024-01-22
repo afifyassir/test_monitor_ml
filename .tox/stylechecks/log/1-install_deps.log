@@ -1,0 +1,167 @@
+name: stylechecks
+run_id: install_deps
+env PATHEXT: .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+env PROGRAMFILES(X86): C:\Program Files (x86)
+env USERPROFILE: C:\Users\Lenovo
+env PROCESSOR_ARCHITECTURE: AMD64
+env NUMBER_OF_PROCESSORS: 8
+env COMSPEC: C:\Windows\system32\cmd.exe
+env PROGRAMFILES: C:\Program Files
+env TEMP: C:\Users\Lenovo\AppData\Local\Temp
+env SYSTEMROOT: C:\Windows
+env TMP: C:\Users\Lenovo\AppData\Local\Temp
+env SYSTEMDRIVE: C:
+env PROGRAMDATA: C:\ProgramData
+env PATH: C:\Users\Lenovo\Desktop\pythonProject26\testing-and-monitoring-ml-deployements\packages\gradient_boosting_model\.tox\unit_tests\Scripts;C:\Users\Lenovo\Desktop\pythonProject26\venv/Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\Users\Lenovo\AppData\Local\Programs\Python\Python36\Scripts\;C:\Users\Lenovo\AppData\Local\Programs\Python\Python36\;C:\Users\Lenovo\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\Lenovo\AppData\Local\Programs\Python\Python39\;C:\Users\Lenovo\scoop\shims;C:\Users\Lenovo\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\Lenovo\AppData\Local\Programs\Python\Python310\;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;;C:\Users\Lenovo\AppData\Local\Programs\Microsoft VS Code\bin
+env PYTHONHASHSEED: 852
+env PIP_DISABLE_PIP_VERSION_CHECK: 1
+env PYTHONIOENCODING: utf-8
+env PYTHONPATH: .
+env TOX_ENV_NAME: stylechecks
+env TOX_WORK_DIR: C:\Users\Lenovo\Desktop\pythonProject26\testing-and-monitoring-ml-deployements\packages\gradient_boosting_model\.tox
+env TOX_ENV_DIR: C:\Users\Lenovo\Desktop\pythonProject26\testing-and-monitoring-ml-deployements\packages\gradient_boosting_model\.tox\unit_tests
+env VIRTUAL_ENV: C:\Users\Lenovo\Desktop\pythonProject26\testing-and-monitoring-ml-deployements\packages\gradient_boosting_model\.tox\unit_tests
+env COLUMNS: 161
+env LINES: 9
+metadata pid: 5624
+cwd: C:\Users\Lenovo\Desktop\pythonProject26\testing-and-monitoring-ml-deployements\packages\gradient_boosting_model
+allow: C:\Users\Lenovo\Desktop\pythonProject26\testing-and-monitoring-ml-deployements\packages\gradient_boosting_model\.tox\unit_tests\Scripts\*
+cmd: pip install -r test_requirements.txt
+exit_code: 0
+Collecting numpy (from -r requirements.txt (line 2))
+  Using cached numpy-1.26.3-cp310-cp310-win_amd64.whl.metadata (61 kB)
+Collecting pandas<1.4.0,>=1.3.5 (from -r requirements.txt (line 3))
+  Using cached pandas-1.3.5-cp310-cp310-win_amd64.whl (10.2 MB)
+Collecting scikit-learn<1.1.0,>=1.0.2 (from -r requirements.txt (line 4))
+  Using cached scikit_learn-1.0.2-cp310-cp310-win_amd64.whl (7.2 MB)
+Collecting feature-engine<1.1.0,>=1.0.2 (from -r requirements.txt (line 5))
+  Using cached feature_engine-1.0.2-py2.py3-none-any.whl (152 kB)
+Collecting joblib<1.1.0,>=1.0.1 (from -r requirements.txt (line 6))
+  Using cached joblib-1.0.1-py3-none-any.whl (303 kB)
+Collecting strictyaml<1.4.0,>=1.3.2 (from -r requirements.txt (line 9))
+  Using cached strictyaml-1.3.2-py3-none-any.whl
+Collecting ruamel.yaml==0.16.12 (from -r requirements.txt (line 10))
+  Using cached ruamel.yaml-0.16.12-py2.py3-none-any.whl (111 kB)
+Collecting pydantic<1.9.0,>=1.8.1 (from -r requirements.txt (line 11))
+  Using cached pydantic-1.8.2-py3-none-any.whl (126 kB)
+Collecting marshmallow<4.0,>=3.2.2 (from -r requirements.txt (line 14))
+  Using cached marshmallow-3.20.2-py3-none-any.whl.metadata (7.5 kB)
+Collecting setuptools<42.0.0,>=41.4.0 (from -r requirements.txt (line 17))
+  Using cached setuptools-41.6.0-py2.py3-none-any.whl (582 kB)
+Collecting wheel<0.34.0,>=0.33.6 (from -r requirements.txt (line 18))
+  Using cached wheel-0.33.6-py2.py3-none-any.whl (21 kB)
+Collecting pytest (from -r test_requirements.txt (line 4))
+  Using cached pytest-7.4.4-py3-none-any.whl.metadata (7.9 kB)
+Collecting black<20.0,>=19.10b0 (from -r test_requirements.txt (line 10))
+  Using cached black-19.10b0-py36-none-any.whl (97 kB)
+Collecting flake8<4.0,>=3.7.9 (from -r test_requirements.txt (line 11))
+  Using cached flake8-3.9.2-py2.py3-none-any.whl (73 kB)
+Collecting mypy>=0.740 (from -r test_requirements.txt (line 12))
+  Using cached mypy-1.8.0-cp310-cp310-win_amd64.whl.metadata (1.9 kB)
+Collecting kaggle<1.6.0,>=1.5.6 (from -r test_requirements.txt (line 15))
+  Using cached kaggle-1.5.16-py3-none-any.whl
+Collecting python-dateutil>=2.7.3 (from pandas<1.4.0,>=1.3.5->-r requirements.txt (line 3))
+  Using cached python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+Collecting pytz>=2017.3 (from pandas<1.4.0,>=1.3.5->-r requirements.txt (line 3))
+  Using cached pytz-2023.3.post1-py2.py3-none-any.whl.metadata (22 kB)
+Collecting scipy>=1.1.0 (from scikit-learn<1.1.0,>=1.0.2->-r requirements.txt (line 4))
+  Using cached scipy-1.12.0-cp310-cp310-win_amd64.whl.metadata (60 kB)
+Collecting threadpoolctl>=2.0.0 (from scikit-learn<1.1.0,>=1.0.2->-r requirements.txt (line 4))
+  Using cached threadpoolctl-3.2.0-py3-none-any.whl.metadata (10.0 kB)
+Collecting statsmodels>=0.11.1 (from feature-engine<1.1.0,>=1.0.2->-r requirements.txt (line 5))
+  Using cached statsmodels-0.14.1-cp310-cp310-win_amd64.whl.metadata (9.8 kB)
+Collecting typing-extensions>=3.7.4.3 (from pydantic<1.9.0,>=1.8.1->-r requirements.txt (line 11))
+  Using cached typing_extensions-4.9.0-py3-none-any.whl.metadata (3.0 kB)
+Collecting packaging>=17.0 (from marshmallow<4.0,>=3.2.2->-r requirements.txt (line 14))
+  Using cached packaging-23.2-py3-none-any.whl.metadata (3.2 kB)
+Collecting iniconfig (from pytest->-r test_requirements.txt (line 4))
+  Using cached iniconfig-2.0.0-py3-none-any.whl (5.9 kB)
+Collecting pluggy<2.0,>=0.12 (from pytest->-r test_requirements.txt (line 4))
+  Using cached pluggy-1.3.0-py3-none-any.whl.metadata (4.3 kB)
+Collecting exceptiongroup>=1.0.0rc8 (from pytest->-r test_requirements.txt (line 4))
+  Using cached exceptiongroup-1.2.0-py3-none-any.whl.metadata (6.6 kB)
+Collecting tomli>=1.0.0 (from pytest->-r test_requirements.txt (line 4))
+  Using cached tomli-2.0.1-py3-none-any.whl (12 kB)
+Collecting colorama (from pytest->-r test_requirements.txt (line 4))
+  Using cached colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+Collecting click>=6.5 (from black<20.0,>=19.10b0->-r test_requirements.txt (line 10))
+  Using cached click-8.1.7-py3-none-any.whl.metadata (3.0 kB)
+Collecting attrs>=18.1.0 (from black<20.0,>=19.10b0->-r test_requirements.txt (line 10))
+  Using cached attrs-23.2.0-py3-none-any.whl.metadata (9.5 kB)
+Collecting appdirs (from black<20.0,>=19.10b0->-r test_requirements.txt (line 10))
+  Using cached appdirs-1.4.4-py2.py3-none-any.whl (9.6 kB)
+Collecting toml>=0.9.4 (from black<20.0,>=19.10b0->-r test_requirements.txt (line 10))
+  Using cached toml-0.10.2-py2.py3-none-any.whl (16 kB)
+Collecting typed-ast>=1.4.0 (from black<20.0,>=19.10b0->-r test_requirements.txt (line 10))
+  Using cached typed_ast-1.5.5-cp310-cp310-win_amd64.whl.metadata (1.7 kB)
+Collecting regex (from black<20.0,>=19.10b0->-r test_requirements.txt (line 10))
+  Using cached regex-2023.12.25-cp310-cp310-win_amd64.whl.metadata (41 kB)
+Collecting pathspec<1,>=0.6 (from black<20.0,>=19.10b0->-r test_requirements.txt (line 10))
+  Using cached pathspec-0.12.1-py3-none-any.whl.metadata (21 kB)
+Collecting pyflakes<2.4.0,>=2.3.0 (from flake8<4.0,>=3.7.9->-r test_requirements.txt (line 11))
+  Using cached pyflakes-2.3.1-py2.py3-none-any.whl (68 kB)
+Collecting pycodestyle<2.8.0,>=2.7.0 (from flake8<4.0,>=3.7.9->-r test_requirements.txt (line 11))
+  Using cached pycodestyle-2.7.0-py2.py3-none-any.whl (41 kB)
+Collecting mccabe<0.7.0,>=0.6.0 (from flake8<4.0,>=3.7.9->-r test_requirements.txt (line 11))
+  Using cached mccabe-0.6.1-py2.py3-none-any.whl (8.6 kB)
+Collecting mypy-extensions>=1.0.0 (from mypy>=0.740->-r test_requirements.txt (line 12))
+  Using cached mypy_extensions-1.0.0-py3-none-any.whl (4.7 kB)
+Collecting six>=1.10 (from kaggle<1.6.0,>=1.5.6->-r test_requirements.txt (line 15))
+  Using cached six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting certifi (from kaggle<1.6.0,>=1.5.6->-r test_requirements.txt (line 15))
+  Using cached certifi-2023.11.17-py3-none-any.whl.metadata (2.2 kB)
+Collecting requests (from kaggle<1.6.0,>=1.5.6->-r test_requirements.txt (line 15))
+  Using cached requests-2.31.0-py3-none-any.whl.metadata (4.6 kB)
+Collecting tqdm (from kaggle<1.6.0,>=1.5.6->-r test_requirements.txt (line 15))
+  Using cached tqdm-4.66.1-py3-none-any.whl.metadata (57 kB)
+Collecting python-slugify (from kaggle<1.6.0,>=1.5.6->-r test_requirements.txt (line 15))
+  Using cached python_slugify-8.0.1-py2.py3-none-any.whl (9.7 kB)
+Collecting urllib3 (from kaggle<1.6.0,>=1.5.6->-r test_requirements.txt (line 15))
+  Using cached urllib3-2.1.0-py3-none-any.whl.metadata (6.4 kB)
+Collecting bleach (from kaggle<1.6.0,>=1.5.6->-r test_requirements.txt (line 15))
+  Using cached bleach-6.1.0-py3-none-any.whl.metadata (30 kB)
+Collecting patsy>=0.5.4 (from statsmodels>=0.11.1->feature-engine<1.1.0,>=1.0.2->-r requirements.txt (line 5))
+  Using cached patsy-0.5.6-py2.py3-none-any.whl.metadata (3.5 kB)
+Collecting webencodings (from bleach->kaggle<1.6.0,>=1.5.6->-r test_requirements.txt (line 15))
+  Using cached webencodings-0.5.1-py2.py3-none-any.whl (11 kB)
+Collecting text-unidecode>=1.3 (from python-slugify->kaggle<1.6.0,>=1.5.6->-r test_requirements.txt (line 15))
+  Using cached text_unidecode-1.3-py2.py3-none-any.whl (78 kB)
+Collecting charset-normalizer<4,>=2 (from requests->kaggle<1.6.0,>=1.5.6->-r test_requirements.txt (line 15))
+  Using cached charset_normalizer-3.3.2-cp310-cp310-win_amd64.whl.metadata (34 kB)
+Collecting idna<4,>=2.5 (from requests->kaggle<1.6.0,>=1.5.6->-r test_requirements.txt (line 15))
+  Using cached idna-3.6-py3-none-any.whl.metadata (9.9 kB)
+Using cached numpy-1.26.3-cp310-cp310-win_amd64.whl (15.8 MB)
+Using cached marshmallow-3.20.2-py3-none-any.whl (49 kB)
+Using cached pytest-7.4.4-py3-none-any.whl (325 kB)
+Using cached mypy-1.8.0-cp310-cp310-win_amd64.whl (9.2 MB)
+Using cached attrs-23.2.0-py3-none-any.whl (60 kB)
+Using cached click-8.1.7-py3-none-any.whl (97 kB)
+Using cached exceptiongroup-1.2.0-py3-none-any.whl (16 kB)
+Using cached packaging-23.2-py3-none-any.whl (53 kB)
+Using cached pathspec-0.12.1-py3-none-any.whl (31 kB)
+Using cached pluggy-1.3.0-py3-none-any.whl (18 kB)
+Using cached pytz-2023.3.post1-py2.py3-none-any.whl (502 kB)
+Using cached scipy-1.12.0-cp310-cp310-win_amd64.whl (46.2 MB)
+Using cached statsmodels-0.14.1-cp310-cp310-win_amd64.whl (9.8 MB)
+Using cached threadpoolctl-3.2.0-py3-none-any.whl (15 kB)
+Using cached typed_ast-1.5.5-cp310-cp310-win_amd64.whl (139 kB)
+Using cached typing_extensions-4.9.0-py3-none-any.whl (32 kB)
+Using cached bleach-6.1.0-py3-none-any.whl (162 kB)
+Using cached certifi-2023.11.17-py3-none-any.whl (162 kB)
+Using cached regex-2023.12.25-cp310-cp310-win_amd64.whl (269 kB)
+Using cached requests-2.31.0-py3-none-any.whl (62 kB)
+Using cached urllib3-2.1.0-py3-none-any.whl (104 kB)
+Using cached tqdm-4.66.1-py3-none-any.whl (78 kB)
+Using cached charset_normalizer-3.3.2-cp310-cp310-win_amd64.whl (100 kB)
+Using cached idna-3.6-py3-none-any.whl (61 kB)
+Using cached patsy-0.5.6-py2.py3-none-any.whl (233 kB)
+Installing collected packages: webencodings, text-unidecode, ruamel.yaml, pytz, mccabe, appdirs, wheel, urllib3, typing-extensions, typed-ast, tomli, toml, threadpoolctl, six, setuptools, regex, python-slugify, pyflakes, pycodestyle, pluggy, pathspec, packaging, numpy, mypy-extensions, joblib, iniconfig, idna, exceptiongroup, colorama, charset-normalizer, certifi, attrs, tqdm, scipy, requests, python-dateutil, pytest, pydantic, patsy, mypy, marshmallow, flake8, click, bleach, strictyaml, scikit-learn, pandas, kaggle, black, statsmodels, feature-engine
+  Attempting uninstall: wheel
+    Found existing installation: wheel 0.42.0
+    Uninstalling wheel-0.42.0:
+      Successfully uninstalled wheel-0.42.0
+  Attempting uninstall: setuptools
+    Found existing installation: setuptools 69.0.3
+    Uninstalling setuptools-69.0.3:
+      Successfully uninstalled setuptools-69.0.3
+Successfully installed appdirs-1.4.4 attrs-23.2.0 black-19.10b0 bleach-6.1.0 certifi-2023.11.17 charset-normalizer-3.3.2 click-8.1.7 colorama-0.4.6 exceptiongroup-1.2.0 feature-engine-1.0.2 flake8-3.9.2 idna-3.6 iniconfig-2.0.0 joblib-1.0.1 kaggle-1.5.16 marshmallow-3.20.2 mccabe-0.6.1 mypy-1.8.0 mypy-extensions-1.0.0 numpy-1.26.3 packaging-23.2 pandas-1.3.5 pathspec-0.12.1 patsy-0.5.6 pluggy-1.3.0 pycodestyle-2.7.0 pydantic-1.8.2 pyflakes-2.3.1 pytest-7.4.4 python-dateutil-2.8.2 python-slugify-8.0.1 pytz-2023.3.post1 regex-2023.12.25 requests-2.31.0 ruamel.yaml-0.16.12 scikit-learn-1.0.2 scipy-1.12.0 setuptools-41.6.0 six-1.16.0 statsmodels-0.14.1 strictyaml-1.3.2 text-unidecode-1.3 threadpoolctl-3.2.0 toml-0.10.2 tomli-2.0.1 tqdm-4.66.1 typed-ast-1.5.5 typing-extensions-4.9.0 urllib3-2.1.0 webencodings-0.5.1 wheel-0.33.6
